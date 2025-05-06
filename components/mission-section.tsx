@@ -13,13 +13,13 @@ export default function MissionSection() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
-            className="bg-card rounded-lg p-6 shadow-sm border border-border text-center"
+            className="group bg-card rounded-lg p-6 shadow-sm border border-border text-center hover:bg-primary hover:border-primary transition-all duration-300"
           >
-            <div className="mx-auto mb-4 bg-primary/10 p-4 rounded-full w-20 h-20 flex items-center justify-center">
-              <Target className="h-10 w-10 text-primary" />
+            <div className="mx-auto mb-4 bg-primary/10 p-4 rounded-full w-20 h-20 flex items-center justify-center group-hover:bg-white/10 transition-colors">
+              <Target className="h-10 w-10 text-primary group-hover:text-white transition-colors" />
             </div>
-            <h3 className="text-xl font-bold mb-2">Our Mission</h3>
-            <p className="text-muted-foreground">
+            <h3 className="text-xl font-bold mb-2 group-hover:text-white transition-colors">Our Mission</h3>
+            <p className="text-muted-foreground group-hover:text-white/90 transition-colors">
               To empower businesses with innovative technology and strategic marketing to achieve sustainable growth and
               competitive advantage.
             </p>
@@ -30,13 +30,13 @@ export default function MissionSection() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.1 }}
-            className="bg-card rounded-lg p-6 shadow-sm border border-border text-center"
+            className="group bg-card rounded-lg p-6 shadow-sm border border-border text-center hover:bg-primary hover:border-primary transition-all duration-300"
           >
-            <div className="mx-auto mb-4 bg-primary/10 p-4 rounded-full w-20 h-20 flex items-center justify-center">
-              <Eye className="h-10 w-10 text-primary" />
+            <div className="mx-auto mb-4 bg-primary/10 p-4 rounded-full w-20 h-20 flex items-center justify-center group-hover:bg-white/10 transition-colors">
+              <Eye className="h-10 w-10 text-primary group-hover:text-white transition-colors" />
             </div>
-            <h3 className="text-xl font-bold mb-2">Our Vision</h3>
-            <p className="text-muted-foreground">
+            <h3 className="text-xl font-bold mb-2 group-hover:text-white transition-colors">Our Vision</h3>
+            <p className="text-muted-foreground group-hover:text-white/90 transition-colors">
               To be the leading tech and marketing agency, known for delivering exceptional results and driving
               innovation in the digital landscape.
             </p>
@@ -47,13 +47,13 @@ export default function MissionSection() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.2 }}
-            className="bg-card rounded-lg p-6 shadow-sm border border-border text-center"
+            className="group bg-card rounded-lg p-6 shadow-sm border border-border text-center hover:bg-primary hover:border-primary transition-all duration-300"
           >
-            <div className="mx-auto mb-4 bg-primary/10 p-4 rounded-full w-20 h-20 flex items-center justify-center">
-              <Award className="h-10 w-10 text-primary" />
+            <div className="mx-auto mb-4 bg-primary/10 p-4 rounded-full w-20 h-20 flex items-center justify-center group-hover:bg-white/10 transition-colors">
+              <Award className="h-10 w-10 text-primary group-hover:text-white transition-colors" />
             </div>
-            <h3 className="text-xl font-bold mb-2">Our Values</h3>
-            <p className="text-muted-foreground">
+            <h3 className="text-xl font-bold mb-2 group-hover:text-white transition-colors">Our Values</h3>
+            <p className="text-muted-foreground group-hover:text-white/90 transition-colors">
               Innovation, excellence, integrity, collaboration, and client success are the core values that guide
               everything we do.
             </p>

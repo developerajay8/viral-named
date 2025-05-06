@@ -44,7 +44,7 @@ export default function FeaturesSection() {
           transition={{ duration: 0.5 }}
           className="text-center mb-12"
         >
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Why Choose Us</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4"> <span className="text-primary">Why </span> Choose Us</h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
             We combine technical expertise with marketing prowess to deliver comprehensive solutions that drive results.
           </p>
@@ -61,7 +61,7 @@ export default function FeaturesSection() {
               <div className="absolute -inset-4 bg-gradient-to-r from-primary/20 to-primary/10 rounded-xl blur-xl opacity-70"></div>
               <div className="relative bg-card rounded-xl overflow-hidden border border-border">
                 <Image
-                  src="/placeholder.svg?height=600&width=600"
+                  src="/whychooseus.png"
                   alt="Features"
                   width={600}
                   height={600}

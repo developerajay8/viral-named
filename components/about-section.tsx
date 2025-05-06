@@ -67,10 +67,10 @@ export default function AboutSection() {
             transition={{ duration: 0.5 }}
           >
             <div className="relative">
-              <div className="absolute -inset-4 bg-gradient-to-r from-primary/20 to-primary/10 rounded-xl blur-xl opacity-70"></div>
+              <div className="absolute -inset-4 rounded-xl blur-xl opacity-70"></div>
               <div className="relative bg-card rounded-xl overflow-hidden border border-border">
                 <Image
-                  src="/placeholder.svg?height=600&width=600"
+                  src="/image 1 (6).png"
                   alt="About Viral Nomad"
                   width={600}
                   height={600}
