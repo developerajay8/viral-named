@@ -37,15 +37,15 @@ export default function Local() {
       {stats.map((stat, index) => (
         <motion.div
           key={index}
-          className="border border-primary text-primary rounded-lg md:p-6 p-[10px] w-48 text-center shadow-lg"
+          className="border border-primary text-primary rounded-lg md:p-6 p-[10px] md:w-48 w-fit text-center shadow-lg"
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: index * 0.2 }}
         >
-          <p className="md:text-3xl text-[25px] font-bold text-primary-600">
+          <p className="md:text-[18px] text-[25px] font-bold text-primary-600">
             {counters[index].toLocaleString()}+
           </p>
-          <p className="text-gray-700 text-[]">{stat.label}</p>
+          <p className="text-gray-700 text-[16px]">{stat.label}</p>
         </motion.div>
       ))}
     </div>
