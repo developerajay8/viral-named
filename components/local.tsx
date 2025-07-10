@@ -33,6 +33,7 @@ export default function Local() {
   }, []);
 
   return (
+    <div className="md:block hidden">
     <div className="flex justify-center md:gap-6 gap-5 md:py-6">
       {stats.map((stat, index) => (
         <motion.div
@@ -48,6 +49,7 @@ export default function Local() {
           <p className="text-gray-700 text-[16px]">{stat.label}</p>
         </motion.div>
       ))}
+    </div>
     </div>
   );
 }
